@@ -1,0 +1,33 @@
+<header>
+    <div class="container">
+        <a routerLink="/" class="logo">RUN TO YOU</a>
+        <ul>
+            <li>
+                <app-search></app-search>
+            </li>
+        </ul>
+        <nav>
+            
+            <ul>
+                
+                <li>
+                    <a routerLink="/login">Login</a>
+                </li>
+                
+                <li class="menu-container">
+                    <a routerLink="/dashboard">Cami</a>
+                    <div class="menu">
+                        <a routerLink="/profile">Profile</a>
+                        <a routerLink="/orders">Orders</a>
+                        <a>Logout</a>
+                    </div>
+                </li>
+                <li>
+                    <a routerLink="/cart-page" >
+                        Cart <span *ngIf="cartQuantity">{{cartQuantity}}</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>

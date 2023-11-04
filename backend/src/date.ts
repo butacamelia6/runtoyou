@@ -79,3 +79,20 @@ export const sample_tags:any[] = [
     {name:'ItalianFood', count: 2},
     {name:'SpanishFood', count: 3},
 ]
+
+export const sample_users: any[] =[
+    { 
+        name: 'Buta Camelia',
+        email: 'butacamelia@gmail.com',
+        password: '$10Iuniestezi',
+        address: 'Poiana Ilvei',
+        isAdmin: true,
+    },
+    { 
+        name: 'Pop Lorena',
+        email: 'poplorena@gmail.com',
+        password: '$10PopLorena',
+        address: 'Livezi',
+        isAdmin: false,
+    },
+]

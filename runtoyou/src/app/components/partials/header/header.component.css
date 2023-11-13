@@ -1,9 +1,9 @@
 header{
     position:relative;
-    background: #fff;
-    padding: 0.1rem 1rem;
-    margin: 0 4rem 0 4rem ;
-    border-bottom: 1px solid var(--secondary-color);
+    /* background: #fff;
+    padding: 0; */
+    margin: 0 0 3rem 0;
+    border-bottom: 1px solid var(--text-color);
     opacity: 0.75;
 }
 a{
@@ -26,6 +26,7 @@ a:hover{
 }
 ul{
     display: flex;
+    flex-wrap: wrap;
     list-style-type: none;
     margin: 0;
 }

@@ -3,7 +3,6 @@ div{
     justify-content: center;
     margin-top: 1rem;
     margin-bottom:1.5rem;
-    background-color: white;
 }
 
 input{
@@ -14,6 +13,11 @@ input{
     outline: none;    
     
 }
+@media screen and (max-width: 950px) {
+    input {
+      padding: 1rem 2rem;
+    }
+  }
 button{
     padding: 1rem 3rem;
     border-radius: 0 5rem 5rem 0;

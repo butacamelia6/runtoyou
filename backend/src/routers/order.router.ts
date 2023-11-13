@@ -2,7 +2,7 @@ import {Router} from 'express';
 import asyncHandler from 'express-async-handler';
 import { HTTP_BAD_REQUEST } from '../constants/nttp_status';
 import { OrderStatus } from '../constants/order_status';
-import { OrderModel } from '../models/orders.model';
+import { OrderModel} from '../models/orders.model'
 import auth from '../middlewares/auth.mid';
 
 const router = Router();
